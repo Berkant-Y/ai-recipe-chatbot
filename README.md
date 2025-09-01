@@ -1,8 +1,14 @@
-# 🤖 AI Recipe Chatbot
+# 🤖 AI Recipe Chatbot | AI Tarif Chatbotu
+
+[🇺🇸 English](#english) | [🇹🇷 Türkçe](#türkçe)
+
+---
+
+## 🇺🇸 English
 
 AI-powered Flutter chatbot that suggests recipes based on available ingredients. Built with Gemini AI.
 
-## 📱 Features
+### 📱 Features
 
 - **Smart Ingredient Detection**: Automatically detects Turkish ingredients from your messages
 - **AI-Powered Suggestions**: Uses Google Gemini AI to generate personalized recipe recommendations
@@ -11,20 +17,20 @@ AI-powered Flutter chatbot that suggests recipes based on available ingredients.
 - **Turkish Language Support**: Fully localized for Turkish cuisine and ingredients
 - **Cross-Platform**: Runs on Android, iOS, and Web
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 - Flutter SDK (>=3.8.0)
 - Dart SDK
 - Android Studio / VS Code
 - Google Gemini API Key
 
-### Installation
+#### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ai-recipe-chatbot.git
+   git clone https://github.com/Berkant-Y/ai-recipe-chatbot.git
    cd ai-recipe-chatbot
    ```
 
@@ -45,15 +51,15 @@ AI-powered Flutter chatbot that suggests recipes based on available ingredients.
    flutter run
    ```
 
-## 🔧 Configuration
+### 🔧 Configuration
 
-### Getting Gemini API Key
+#### Getting Gemini API Key
 
 1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Create a new API key
 3. Add it to your `.env` file
 
-### Supported Platforms
+#### Supported Platforms
 
 - ✅ Android
 - ✅ iOS  
@@ -62,7 +68,7 @@ AI-powered Flutter chatbot that suggests recipes based on available ingredients.
 - ✅ macOS
 - ✅ Linux
 
-## 📖 Usage
+### 📖 Usage
 
 1. **Start the app** and you'll see a welcome message
 2. **Type your available ingredients** in Turkish (e.g., "Elimde soğan, domates ve patates var")
@@ -70,7 +76,7 @@ AI-powered Flutter chatbot that suggests recipes based on available ingredients.
 4. **Tap on recipes** to see detailed cooking instructions
 5. **Enjoy cooking!** 🍳
 
-### Example Conversations
+#### Example Conversations
 
 ```
 👤 User: "Elimde tavuk, pirinç ve soğan var"
@@ -86,7 +92,7 @@ AI-powered Flutter chatbot that suggests recipes based on available ingredients.
       → Çırpılmış Yumurta
 ```
 
-## 🏗️ Architecture
+### 🏗️ Architecture
 
 The app follows a clean, modular architecture:
 
@@ -100,14 +106,14 @@ lib/
 └── widgets/           # Reusable UI components
 ```
 
-### Key Components
+#### Key Components
 
 - **RecipeService**: Handles Gemini AI integration and recipe generation
 - **ChatScreen**: Main chat interface with real-time messaging
 - **IngredientMap**: Comprehensive Turkish ingredient detection system
 - **ChatBubble**: Custom chat UI component
 
-## 🎨 Technologies Used
+### 🎨 Technologies Used
 
 - **Flutter** - Cross-platform mobile framework
 - **Dart** - Programming language
@@ -115,7 +121,7 @@ lib/
 - **flutter_dotenv** - Environment variable management
 - **Material Design** - UI/UX design system
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -125,21 +131,150 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+---
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🇹🇷 Türkçe
 
-## 🙏 Acknowledgments
+Elinizde bulunan malzemelere göre yemek tarifleri öneren, Gemini AI ile güçlendirilmiş Flutter chatbot uygulaması.
 
-- Google Gemini AI for powerful recipe generation
-- Flutter team for the amazing framework
-- Turkish cuisine for endless inspiration
+### 📱 Özellikler
 
-## 📞 Contact
+- **Akıllı Malzeme Tespiti**: Mesajlarınızdan Türkçe malzemeleri otomatik olarak algılar
+- **AI Destekli Öneriler**: Google Gemini AI kullanarak kişiselleştirilmiş tarif önerileri üretir
+- **Etkileşimli Chat Arayüzü**: Temiz ve sezgisel sohbet UI'ı
+- **Tarif Detayları**: Detaylı pişirme talimatları, malzeme listesi ve pişirme süresi
+- **Türkçe Dil Desteği**: Türk mutfağı ve malzemeleri için tamamen yerelleştirilmiş
+- **Çoklu Platform**: Android, iOS ve Web üzerinde çalışır
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- Project Link: [https://github.com/YOUR_USERNAME/ai-recipe-chatbot](https://github.com/YOUR_USERNAME/ai-recipe-chatbot)
+### 🚀 Başlangıç
+
+#### Gereksinimler
+
+- Flutter SDK (>=3.8.0)
+- Dart SDK
+- Android Studio / VS Code
+- Google Gemini API Anahtarı
+
+#### Kurulum
+
+1. **Depoyu klonlayın**
+   ```bash
+   git clone https://github.com/Berkant-Y/ai-recipe-chatbot.git
+   cd ai-recipe-chatbot
+   ```
+
+2. **Bağımlılıkları yükleyin**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Ortam değişkenlerini ayarlayın**
+   
+   Kök dizinde `.env` dosyası oluşturun:
+   ```env
+   GEMINI_API_KEY=gemini_api_anahtariniz_buraya
+   ```
+
+4. **Uygulamayı çalıştırın**
+   ```bash
+   flutter run
+   ```
+
+### 🔧 Yapılandırma
+
+#### Gemini API Anahtarı Alma
+
+1. [Google AI Studio](https://makersuite.google.com/app/apikey)'yu ziyaret edin
+2. Yeni bir API anahtarı oluşturun
+3. `.env` dosyanıza ekleyin
+
+#### Desteklenen Platformlar
+
+- ✅ Android
+- ✅ iOS  
+- ✅ Web
+- ✅ Windows
+- ✅ macOS
+- ✅ Linux
+
+### 📖 Kullanım
+
+1. **Uygulamayı başlatın** ve karşılama mesajını görün
+2. **Mevcut malzemelerinizi yazın** (örn: "Elimde soğan, domates ve patates var")
+3. **AI önerilerini alın** - Bot yapabileceğiniz tarifleri önerecek
+4. **Tariflere dokunun** ve detaylı pişirme talimatlarını görün
+5. **Keyifle pişirin!** 🍳
+
+#### Örnek Konuşmalar
+
+```
+� Kullanıcı: "Elimde tavuk, pirinç ve soğan var"
+🤖 Bot: "Aşağıda önerilen tarifler:"
+      → Tavuklu Pilav
+      → Tavuk Sote
+      → Kremalı Tavuk
+
+👤 Kullanıcı: "Sadece yumurta var"
+🤖 Bot: "Aşağıda önerilen tarifler:"
+      → Omlet
+      → Sahanda Yumurta
+      → Çırpılmış Yumurta
+```
+
+### 🏗️ Mimari
+
+Uygulama temiz ve modüler bir mimari takip eder:
+
+```
+lib/
+├── data/              # Veri modelleri ve malzeme haritası
+├── models/            # Veri modelleri (Message, Recipe)
+├── screens/           # UI ekranları (Chat, Recipe Detail, Splash)
+├── services/          # API servisleri (Recipe Service)
+├── utils/             # Sabitler ve yardımcı araçlar
+└── widgets/           # Yeniden kullanılabilir UI bileşenleri
+```
+
+#### Ana Bileşenler
+
+- **RecipeService**: Gemini AI entegrasyonu ve tarif üretimini yönetir
+- **ChatScreen**: Gerçek zamanlı mesajlaşma ile ana sohbet arayüzü
+- **IngredientMap**: Kapsamlı Türkçe malzeme tespit sistemi
+- **ChatBubble**: Özel sohbet UI bileşeni
+
+### 🎨 Kullanılan Teknolojiler
+
+- **Flutter** - Çoklu platform mobil framework
+- **Dart** - Programlama dili
+- **Google Gemini AI** - AI tarif üretimi
+- **flutter_dotenv** - Ortam değişkeni yönetimi
+- **Material Design** - UI/UX tasarım sistemi
+
+### 🤝 Katkıda Bulunma
+
+Katkılar memnuniyetle karşılanır! Lütfen bir Pull Request göndermekten çekinmeyin.
+
+1. Projeyi fork edin
+2. Özellik dalınızı oluşturun (`git checkout -b feature/HarikaBirOzellik`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Harika bir özellik ekle'`)
+4. Dalınıza push yapın (`git push origin feature/HarikaBirOzellik`)
+5. Bir Pull Request açın
+
+### 📝 Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
+### � Teşekkürler
+
+- Güçlü tarif üretimi için Google Gemini AI'ya
+- Muhteşem framework için Flutter ekibine
+- Sonsuz ilham için Türk mutfağına
+
+### 📞 İletişim
+
+- GitHub: [@Berkant-Y](https://github.com/Berkant-Y)
+- Proje Linki: [https://github.com/Berkant-Y/ai-recipe-chatbot](https://github.com/Berkant-Y/ai-recipe-chatbot)
 
 ---
 
-**Made with ❤️ and AI**
+**❤️ ve AI ile yapıldı**
