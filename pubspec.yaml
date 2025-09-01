@@ -1,0 +1,48 @@
+name: food
+description: AI-powered recipe suggestion chatbot
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  image_picker: ^1.0.4
+  vector_math: ^2.1.4
+  ml_linalg: ^13.4.0
+  fl_chart: ^0.64.0
+  
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.3.2
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # UI
+  flutter_chat_ui: ^1.6.8
+  loading_animation_widget: 1.2.0
+  
+  # Environment variables
+  flutter_dotenv: ^5.1.0
+
+  # AI/ML
+  google_generative_ai: ^0.4.3  # Bu satırı ekle
+
+  # RAG & Vector işlemleri için eklenen
+  collection: ^1.18.0
+  path_provider: ^2.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
